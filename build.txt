@@ -1,0 +1,8 @@
+COMPILE USING THIS IN TERMINAL
+
+C:/Users/hayth/AppData/Local/Programs/Python/Python310/python.exe T_State_1oel.py
+
+***FOR T STATE PROTEIN, CHANGE FOR OTHERS
+
+***CHANGE PATH DEPENDING ON MACHINE USED ON ^^^ FOR LABTOB
+ 

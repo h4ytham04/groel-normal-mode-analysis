@@ -28,5 +28,3 @@ conda install -c conda-forge prody numpy scipy matplotlib biopython
 
 ### System Requirements
 - **Windows**: Microsoft Visual C++ 14.0 or greater (Visual Studio Build Tools)
-- **Memory**: Minimum 4GB RAM (8GB+ recommended for large protein structures)
-- **Storage**: ~500MB for dependencies
