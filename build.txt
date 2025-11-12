@@ -1,8 +1,33 @@
-COMPILE USING THIS IN TERMINAL
+====== DOCKER COMMANDS (PORTABLE - WORKS ON ANY MACHINE) ======
+
+1. BUILD THE DOCKER IMAGE (only need to do this once or when Dockerfile changes):
+   docker build -t my-prody-project .
+
+2. RUN SPECIFIC PYTHON SCRIPTS:
+   docker run --rm my-prody-project python T_State_1oel.py
+   docker run --rm my-prody-project python R_State_4aas.py  
+   docker run --rm my-prody-project python R_Prime_State_1svt.py
+
+3. INTERACTIVE SESSION (for development/testing):
+   docker run -it my-prody-project
+
+4. RUN WITH LOCAL FILE MOUNTING (to save results to host machine):
+   docker run --rm -v ${PWD}:/app my-prody-project python T_State_1oel.py
+
+5. CHECK PRODY INSTALLATION:
+   docker run --rm my-prody-project python -c "import prody; print('ProDy version:', prody.__version__)"
+
+====== OLD METHOD (MACHINE-SPECIFIC - NOT PORTABLE) ======
 
 C:/Users/hayth/AppData/Local/Programs/Python/Python310/python.exe T_State_1oel.py
 
 ***FOR T STATE PROTEIN, CHANGE FOR OTHERS
+***CHANGE PATH DEPENDING ON MACHINE USED ON ^^^ FOR LAPTOP
 
-***CHANGE PATH DEPENDING ON MACHINE USED ON ^^^ FOR LABTOB
+====== NOTES ======
+- Docker method works on ANY machine with Docker installed
+- No need to install Python, ProDy, NumPy, etc. separately
+- Image contains all dependencies pre-compiled
+- Use --rm flag to automatically remove container after execution
+- Use -v flag to mount local directory for saving output files
  
