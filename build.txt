@@ -30,4 +30,3 @@ C:/Users/hayth/AppData/Local/Programs/Python/Python310/python.exe T_State_1oel.p
 - Image contains all dependencies pre-compiled
 - Use --rm flag to automatically remove container after execution
 - Use -v flag to mount local directory for saving output files
- 
