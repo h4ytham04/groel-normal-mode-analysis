@@ -10,5 +10,5 @@ print(f"Number of residues: {atoms.numResidues()}")
 calphas = atoms.select('calpha')
 
 gnm = GNM('Chaperonin')
-gnm.buildKirchhoff(calphas)
+gnm.buildKirchhoff(calphas, cutoff=7, gamma=1) #researchers tend to use these values wehn running GNM
 print(gnm.getKirchhoff())
