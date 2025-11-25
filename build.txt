@@ -3,6 +3,9 @@
 1. BUILD THE DOCKER IMAGE (only need to do this once or when Dockerfile changes):
    docker build -t my-prody-project .
 
+volume mount:
+   docker run -v "c:\Users\Haytham\Documents\Coding Projects\groel-normal-mode-analysis:/app" my-prody-project python T_State_1oel.py
+
 2. RUN SPECIFIC PYTHON SCRIPTS:
    docker run --rm my-prody-project python T_State_1oel.py
    docker run --rm my-prody-project python R_State_4aas.py  
