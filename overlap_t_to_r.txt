@@ -1,0 +1,164 @@
+t state num of chains
+7
+r state num of chains
+14
+
+
+chain A
+
+
+T state gnm
+Kirchhoff shape: (523, 523)
+T State eigenvalues: [0.015 0.104 0.156 0.165 0.194 0.304 0.355 0.376 0.408 0.475 0.577 0.624
+ 0.691 0.731 0.779 0.804 0.883 0.885 0.977 1.085]
+mode overlap
+Mode 1: overlap = 0.0439
+Mode 2: overlap = 0.0634
+Mode 3: overlap = 0.0782
+Mode 4: overlap = 0.1945
+Mode 5: overlap = 0.0826
+Mode 6: overlap = 0.0529
+Mode 7: overlap = 0.1023
+Mode 8: overlap = 0.0455
+Mode 9: overlap = 0.0713
+Mode 10: overlap = 0.1181
+RMSD: 7.483 Angstroms
+mode 4 best predicts the T to R transition
+
+
+
+chain B
+
+
+T state gnm
+Kirchhoff shape: (523, 523)
+T State eigenvalues: [0.015 0.105 0.156 0.166 0.193 0.302 0.369 0.39  0.411 0.474 0.585 0.626
+ 0.681 0.735 0.782 0.803 0.863 0.878 0.968 1.073]
+mode overlap
+Mode 1: overlap = 0.0446
+Mode 2: overlap = 0.0706
+Mode 3: overlap = 0.0631
+Mode 4: overlap = 0.2010
+Mode 5: overlap = 0.0976
+Mode 6: overlap = 0.0170
+Mode 7: overlap = 0.1121
+Mode 8: overlap = 0.0365
+Mode 9: overlap = 0.0714
+Mode 10: overlap = 0.1409
+RMSD: 7.447 Angstroms
+mode 4 best predicts the T to R transition
+
+
+
+chain C
+
+
+T state gnm
+Kirchhoff shape: (523, 523)
+T State eigenvalues: [0.013 0.097 0.151 0.16  0.191 0.304 0.351 0.37  0.408 0.475 0.573 0.59
+ 0.691 0.72  0.778 0.801 0.883 0.885 0.976 1.077]
+mode overlap
+Mode 1: overlap = 0.0307
+Mode 2: overlap = 0.0514
+Mode 3: overlap = 0.0582
+Mode 4: overlap = 0.2085
+Mode 5: overlap = 0.1051
+Mode 6: overlap = 0.0476
+Mode 7: overlap = 0.1118
+Mode 8: overlap = 0.0435
+Mode 9: overlap = 0.0831
+Mode 10: overlap = 0.1052
+RMSD: 7.306 Angstroms
+mode 4 best predicts the T to R transition
+
+
+
+chain D
+
+
+T state gnm
+Kirchhoff shape: (523, 523)
+T State eigenvalues: [0.013 0.099 0.151 0.16  0.184 0.301 0.367 0.39  0.412 0.474 0.581 0.609
+ 0.686 0.715 0.787 0.802 0.877 0.884 0.982 1.088]
+mode overlap
+Mode 1: overlap = 0.0269
+Mode 2: overlap = 0.0278
+Mode 3: overlap = 0.0704
+Mode 4: overlap = 0.1899
+Mode 5: overlap = 0.0992
+Mode 6: overlap = 0.0076
+Mode 7: overlap = 0.1054
+Mode 8: overlap = 0.0380
+Mode 9: overlap = 0.0712
+Mode 10: overlap = 0.1341
+RMSD: 7.315 Angstroms
+mode 4 best predicts the T to R transition
+
+
+
+chain E
+
+
+T state gnm
+Kirchhoff shape: (523, 523)
+T State eigenvalues: [0.013 0.1   0.148 0.16  0.192 0.306 0.37  0.39  0.412 0.474 0.577 0.603
+ 0.692 0.731 0.788 0.803 0.877 0.884 0.989 1.094]
+mode overlap
+Mode 1: overlap = 0.0382
+Mode 2: overlap = 0.0234
+Mode 3: overlap = 0.0790
+Mode 4: overlap = 0.2051
+Mode 5: overlap = 0.0872
+Mode 6: overlap = 0.0409
+Mode 7: overlap = 0.1003
+Mode 8: overlap = 0.0333
+Mode 9: overlap = 0.0687
+Mode 10: overlap = 0.1251
+RMSD: 7.728 Angstroms
+mode 4 best predicts the T to R transition
+
+
+
+chain F
+
+
+T state gnm
+Kirchhoff shape: (523, 523)
+T State eigenvalues: [0.013 0.099 0.151 0.16  0.191 0.305 0.351 0.37  0.41  0.47  0.569 0.589
+ 0.691 0.726 0.783 0.8   0.876 0.884 0.984 1.083]
+mode overlap
+Mode 1: overlap = 0.0484
+Mode 2: overlap = 0.0455
+Mode 3: overlap = 0.0743
+Mode 4: overlap = 0.2069
+Mode 5: overlap = 0.0952
+Mode 6: overlap = 0.0585
+Mode 7: overlap = 0.0993
+Mode 8: overlap = 0.0423
+Mode 9: overlap = 0.0718
+Mode 10: overlap = 0.1131
+RMSD: 7.458 Angstroms
+mode 4 best predicts the T to R transition
+
+
+
+chain G
+
+
+T state gnm
+Kirchhoff shape: (523, 523)
+T State eigenvalues: [0.013 0.1   0.151 0.16  0.191 0.305 0.357 0.383 0.41  0.474 0.574 0.6
+ 0.692 0.732 0.786 0.803 0.877 0.884 0.984 1.085]
+mode overlap
+Mode 1: overlap = 0.0300
+Mode 2: overlap = 0.0473
+Mode 3: overlap = 0.0715
+Mode 4: overlap = 0.2118
+Mode 5: overlap = 0.0986
+Mode 6: overlap = 0.0027
+Mode 7: overlap = 0.1118
+Mode 8: overlap = 0.0430
+Mode 9: overlap = 0.0736
+Mode 10: overlap = 0.1095
+RMSD: 7.353 Angstroms
+mode 4 best predicts the T to R transition
