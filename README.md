@@ -28,3 +28,8 @@ conda install -c conda-forge prody numpy scipy matplotlib biopython
 
 ### System Requirements
 - **Windows**: Microsoft Visual C++ 14.0 or greater (Visual Studio Build Tools)
+
+
+
+
+anm, open to close would be better for analysis
