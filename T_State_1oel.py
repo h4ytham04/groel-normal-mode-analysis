@@ -29,23 +29,20 @@ for chain_id in chains_to_analyze:
     print()
     print()
 
-    # Select C-alpha atoms for both structures
     t_calphas_all = t_state.select(f'calpha and chain {chain_id}')
     r_calphas_all = r_state.select(f'calpha and chain {chain_id}')
     
-    # Match residues - only use residues present in BOTH structures
     t_resnums = set(t_calphas_all.getResnums())
     r_resnums = set(r_calphas_all.getResnums())
     common_resnums = sorted(t_resnums.intersection(r_resnums))
-    
-    # Create selection string for common residues
+
     resnum_str = ' '.join(map(str, common_resnums))
     t_calphas = t_state.select(f'calpha and chain {chain_id} and resnum {resnum_str}')
     r_calphas = r_state.select(f'calpha and chain {chain_id} and resnum {resnum_str}')
 
     gnm_t = GNM('T State')
     gnm_t.buildKirchhoff(t_calphas, cutoff=7, gamma=1)
-    gnm_t.calcModes(n_modes=20)
+    gnm_t.calcModes(n_modes=10)
 
     print("T state gnm")
     print("Kirchhoff shape:", gnm_t.getKirchhoff().shape)
