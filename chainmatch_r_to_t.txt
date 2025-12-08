@@ -1,0 +1,398 @@
+@> 52668 atoms and 1 coordinate set(s) were parsed in 0.28s.
+@> PDB file is found in working directory (4aas.pdb.gz).
+@> 54062 atoms and 1 coordinate set(s) were parsed in 0.27s.
+@> Checking AtomGroup 1gr5: 14 chains are identified
+@> Checking AtomGroup 4aas: 14 chains are identified
+@> Trying to match chains based on residue numbers and names:
+@>   Comparing Chain A from 1gr5 (len=517) and Chain A from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain A from 1gr5 (len=517) and Chain B from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain A from 1gr5 (len=517) and Chain C from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain A from 1gr5 (len=517) and Chain D from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain A from 1gr5 (len=517) and Chain E from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain A from 1gr5 (len=517) and Chain F from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain A from 1gr5 (len=517) and Chain G from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain A from 1gr5 (len=517) and Chain H from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain A from 1gr5 (len=517) and Chain I from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain A from 1gr5 (len=517) and Chain J from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain A from 1gr5 (len=517) and Chain K from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain A from 1gr5 (len=517) and Chain L from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain A from 1gr5 (len=517) and Chain M from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain A from 1gr5 (len=517) and Chain N from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain B from 1gr5 (len=517) and Chain A from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain B from 1gr5 (len=517) and Chain B from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain B from 1gr5 (len=517) and Chain C from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain B from 1gr5 (len=517) and Chain D from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain B from 1gr5 (len=517) and Chain E from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain B from 1gr5 (len=517) and Chain F from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain B from 1gr5 (len=517) and Chain G from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain B from 1gr5 (len=517) and Chain H from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain B from 1gr5 (len=517) and Chain I from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain B from 1gr5 (len=517) and Chain J from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain B from 1gr5 (len=517) and Chain K from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain B from 1gr5 (len=517) and Chain L from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain B from 1gr5 (len=517) and Chain M from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain B from 1gr5 (len=517) and Chain N from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain C from 1gr5 (len=517) and Chain A from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain C from 1gr5 (len=517) and Chain B from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain C from 1gr5 (len=517) and Chain C from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain C from 1gr5 (len=517) and Chain D from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain C from 1gr5 (len=517) and Chain E from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain C from 1gr5 (len=517) and Chain F from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain C from 1gr5 (len=517) and Chain G from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain C from 1gr5 (len=517) and Chain H from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain C from 1gr5 (len=517) and Chain I from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain C from 1gr5 (len=517) and Chain J from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain C from 1gr5 (len=517) and Chain K from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain C from 1gr5 (len=517) and Chain L from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain C from 1gr5 (len=517) and Chain M from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain C from 1gr5 (len=517) and Chain N from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain D from 1gr5 (len=517) and Chain A from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain D from 1gr5 (len=517) and Chain B from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain D from 1gr5 (len=517) and Chain C from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain D from 1gr5 (len=517) and Chain D from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain D from 1gr5 (len=517) and Chain E from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain D from 1gr5 (len=517) and Chain F from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain D from 1gr5 (len=517) and Chain G from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain D from 1gr5 (len=517) and Chain H from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain D from 1gr5 (len=517) and Chain I from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain D from 1gr5 (len=517) and Chain J from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain D from 1gr5 (len=517) and Chain K from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain D from 1gr5 (len=517) and Chain L from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain D from 1gr5 (len=517) and Chain M from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain D from 1gr5 (len=517) and Chain N from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain E from 1gr5 (len=517) and Chain A from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain E from 1gr5 (len=517) and Chain B from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain E from 1gr5 (len=517) and Chain C from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain E from 1gr5 (len=517) and Chain D from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain E from 1gr5 (len=517) and Chain E from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain E from 1gr5 (len=517) and Chain F from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain E from 1gr5 (len=517) and Chain G from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain E from 1gr5 (len=517) and Chain H from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain E from 1gr5 (len=517) and Chain I from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain E from 1gr5 (len=517) and Chain J from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain E from 1gr5 (len=517) and Chain K from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain E from 1gr5 (len=517) and Chain L from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain E from 1gr5 (len=517) and Chain M from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain E from 1gr5 (len=517) and Chain N from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain F from 1gr5 (len=517) and Chain A from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain F from 1gr5 (len=517) and Chain B from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain F from 1gr5 (len=517) and Chain C from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain F from 1gr5 (len=517) and Chain D from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain F from 1gr5 (len=517) and Chain E from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain F from 1gr5 (len=517) and Chain F from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain F from 1gr5 (len=517) and Chain G from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain F from 1gr5 (len=517) and Chain H from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain F from 1gr5 (len=517) and Chain I from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain F from 1gr5 (len=517) and Chain J from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain F from 1gr5 (len=517) and Chain K from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain F from 1gr5 (len=517) and Chain L from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain F from 1gr5 (len=517) and Chain M from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain F from 1gr5 (len=517) and Chain N from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain G from 1gr5 (len=517) and Chain A from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain G from 1gr5 (len=517) and Chain B from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain G from 1gr5 (len=517) and Chain C from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain G from 1gr5 (len=517) and Chain D from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain G from 1gr5 (len=517) and Chain E from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain G from 1gr5 (len=517) and Chain F from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain G from 1gr5 (len=517) and Chain G from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain G from 1gr5 (len=517) and Chain H from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain G from 1gr5 (len=517) and Chain I from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain G from 1gr5 (len=517) and Chain J from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain G from 1gr5 (len=517) and Chain K from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain G from 1gr5 (len=517) and Chain L from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain G from 1gr5 (len=517) and Chain M from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain G from 1gr5 (len=517) and Chain N from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain H from 1gr5 (len=517) and Chain A from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain H from 1gr5 (len=517) and Chain B from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain H from 1gr5 (len=517) and Chain C from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain H from 1gr5 (len=517) and Chain D from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain H from 1gr5 (len=517) and Chain E from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain H from 1gr5 (len=517) and Chain F from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain H from 1gr5 (len=517) and Chain G from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain H from 1gr5 (len=517) and Chain H from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain H from 1gr5 (len=517) and Chain I from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain H from 1gr5 (len=517) and Chain J from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain H from 1gr5 (len=517) and Chain K from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain H from 1gr5 (len=517) and Chain L from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain H from 1gr5 (len=517) and Chain M from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain H from 1gr5 (len=517) and Chain N from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain I from 1gr5 (len=517) and Chain A from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain I from 1gr5 (len=517) and Chain B from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain I from 1gr5 (len=517) and Chain C from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain I from 1gr5 (len=517) and Chain D from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain I from 1gr5 (len=517) and Chain E from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain I from 1gr5 (len=517) and Chain F from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain I from 1gr5 (len=517) and Chain G from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain I from 1gr5 (len=517) and Chain H from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain I from 1gr5 (len=517) and Chain I from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain I from 1gr5 (len=517) and Chain J from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain I from 1gr5 (len=517) and Chain K from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain I from 1gr5 (len=517) and Chain L from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain I from 1gr5 (len=517) and Chain M from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain I from 1gr5 (len=517) and Chain N from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain J from 1gr5 (len=517) and Chain A from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain J from 1gr5 (len=517) and Chain B from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain J from 1gr5 (len=517) and Chain C from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain J from 1gr5 (len=517) and Chain D from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain J from 1gr5 (len=517) and Chain E from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain J from 1gr5 (len=517) and Chain F from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain J from 1gr5 (len=517) and Chain G from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain J from 1gr5 (len=517) and Chain H from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain J from 1gr5 (len=517) and Chain I from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain J from 1gr5 (len=517) and Chain J from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain J from 1gr5 (len=517) and Chain K from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain J from 1gr5 (len=517) and Chain L from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain J from 1gr5 (len=517) and Chain M from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain J from 1gr5 (len=517) and Chain N from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain K from 1gr5 (len=517) and Chain A from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain K from 1gr5 (len=517) and Chain B from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain K from 1gr5 (len=517) and Chain C from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain K from 1gr5 (len=517) and Chain D from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain K from 1gr5 (len=517) and Chain E from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain K from 1gr5 (len=517) and Chain F from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain K from 1gr5 (len=517) and Chain G from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain K from 1gr5 (len=517) and Chain H from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain K from 1gr5 (len=517) and Chain I from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain K from 1gr5 (len=517) and Chain J from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain K from 1gr5 (len=517) and Chain K from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain K from 1gr5 (len=517) and Chain L from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain K from 1gr5 (len=517) and Chain M from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain K from 1gr5 (len=517) and Chain N from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain L from 1gr5 (len=517) and Chain A from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain L from 1gr5 (len=517) and Chain B from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain L from 1gr5 (len=517) and Chain C from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain L from 1gr5 (len=517) and Chain D from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain L from 1gr5 (len=517) and Chain E from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain L from 1gr5 (len=517) and Chain F from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain L from 1gr5 (len=517) and Chain G from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain L from 1gr5 (len=517) and Chain H from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain L from 1gr5 (len=517) and Chain I from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain L from 1gr5 (len=517) and Chain J from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain L from 1gr5 (len=517) and Chain K from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain L from 1gr5 (len=517) and Chain L from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain L from 1gr5 (len=517) and Chain M from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain L from 1gr5 (len=517) and Chain N from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain M from 1gr5 (len=517) and Chain A from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain M from 1gr5 (len=517) and Chain B from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain M from 1gr5 (len=517) and Chain C from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain M from 1gr5 (len=517) and Chain D from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain M from 1gr5 (len=517) and Chain E from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain M from 1gr5 (len=517) and Chain F from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain M from 1gr5 (len=517) and Chain G from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain M from 1gr5 (len=517) and Chain H from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain M from 1gr5 (len=517) and Chain I from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain M from 1gr5 (len=517) and Chain J from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain M from 1gr5 (len=517) and Chain K from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain M from 1gr5 (len=517) and Chain L from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain M from 1gr5 (len=517) and Chain M from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain M from 1gr5 (len=517) and Chain N from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain N from 1gr5 (len=517) and Chain A from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain N from 1gr5 (len=517) and Chain B from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain N from 1gr5 (len=517) and Chain C from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain N from 1gr5 (len=517) and Chain D from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain N from 1gr5 (len=517) and Chain E from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain N from 1gr5 (len=517) and Chain F from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain N from 1gr5 (len=517) and Chain G from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain N from 1gr5 (len=517) and Chain H from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain N from 1gr5 (len=517) and Chain I from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain N from 1gr5 (len=517) and Chain J from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain N from 1gr5 (len=517) and Chain K from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain N from 1gr5 (len=517) and Chain L from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain N from 1gr5 (len=517) and Chain M from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.
+@>   Comparing Chain N from 1gr5 (len=517) and Chain N from 4aas (len=523):
+@>      Match: 515 residues match with 99% sequence identity and 98% overlap.

@@ -1,25 +1,4 @@
-from prody import *
-import prody
-import numpy as np
-
-
-t_state = prody.parsePDB('1oel')
-r_state = prody.parsePDB('4aas')
-
-#num of chains
-print("t state num of chains")
-chains = set(t_state.getChids())
-print(len(chains))
-
-#7 vs 21 chains, only do 7 for the 1oel
-
-
-print("r state num of chains")
-chains2 = set(r_state.getChids())
-print(len(chains2))
-
-
-chains_to_analyze = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
+'''
 
 for chain_id in chains_to_analyze:
 
@@ -76,4 +55,4 @@ for chain_id in chains_to_analyze:
     print() 
 
 
-#
+'''
