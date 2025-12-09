@@ -1,6 +1,8 @@
 from prody import *
 import prody
 import numpy as np
+from contact_map import ContactFrequency
+import matplotlib.pyplot as plt
 
 r_state = prody.parsePDB('4aas')
 t_state = prody.parsePDB('1gr5')
@@ -8,6 +10,8 @@ t_state = prody.parsePDB('1gr5')
 chains_to_analyze = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N']
 
 results = []
+
+optimal_anm_protein = [] #coords of the chains of the optimal ANM mode for the entire protein
 
 for chain_id in chains_to_analyze:
     
@@ -68,8 +72,12 @@ for chain_id in chains_to_analyze:
         
         print(f'non-trivial mode {i-5} (actual mode {i}): {overlap:.4f}')
     
-    best_mode = np.argmax(overlaps) + 1
+    best_mode = np.argmax(overlaps) + 1 #+1 to convert from index to mode number (starting at 1)
     best_overlap = max(overlaps)
+
+  
+
+    
     
     print()
     print(f'mode {best_mode} best predicts r to t transition')
@@ -87,3 +95,5 @@ print()
 print()
 for r in results:
     print(f"results for chain {r['chain']}: atoms={r['atoms']}, rmsd={r['rmsd']:.3f} Angstroms, best mode={r['best_mode']}, best overlap={r['best_overlap']:.4f}")
+
+
