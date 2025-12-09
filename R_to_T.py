@@ -42,14 +42,15 @@ for chain_id in chains_to_analyze:
     
     #align structures
     t_aligned = t_matched.copy()
-    calcTransformation(t_aligned, r_matched).apply(t_aligned)
+    calcTransformation(t_aligned, r_matched).apply(t_aligned) #align t to r
     
     #r to t displacement
     delta = t_aligned.getCoords() - r_matched.getCoords()
     delta_vector = delta.flatten()
     
-    rmsd = np.sqrt(np.mean(np.sum(delta**2, axis=1)))
-    print(f'rmsd: {rmsd:.3f} angstroms')
+
+    prodyrmsd = calcRMSD(r_matched, t_aligned)
+    print(f'prody rmsd: {prodyrmsd:.3f} angstroms')
     
     #mode overlap
     print()
@@ -65,7 +66,7 @@ for chain_id in chains_to_analyze:
         overlap = abs(np.dot(mode_norm, delta_norm))
         overlaps.append(overlap)
         
-        print(f'mode {i-5}: {overlap:.4f}')
+        print(f'non-trivial mode {i-5} (actual mode {i}): {overlap:.4f}')
     
     best_mode = np.argmax(overlaps) + 1
     best_overlap = max(overlaps)
@@ -77,7 +78,7 @@ for chain_id in chains_to_analyze:
     results.append({
         'chain': chain_id,
         'atoms': r_matched.numAtoms(),
-        'rmsd': rmsd,
+        'rmsd': prodyrmsd,
         'best_mode': best_mode,
         'best_overlap': best_overlap
     })
@@ -85,4 +86,4 @@ for chain_id in chains_to_analyze:
 print()
 print()
 for r in results:
-    print(f"results for chain {r['chain']}: atoms={r['atoms']}, rmsd={r['rmsd']:.3f} Å, best mode={r['best_mode']}, best overlap={r['best_overlap']:.4f}")
+    print(f"results for chain {r['chain']}: atoms={r['atoms']}, rmsd={r['rmsd']:.3f} Angstroms, best mode={r['best_mode']}, best overlap={r['best_overlap']:.4f}")
