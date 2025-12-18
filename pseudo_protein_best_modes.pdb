@@ -1,4 +1,4 @@
-REMARK AtomGroup Pseudo-protein from best modes
+REMARK AtomGroup Pseudo-protein R→T
 ATOM      1  CA  ALA A   2       6.615  37.698  30.198  0.00  0.00           C  
 ATOM      2  CA  ALA A   3       8.259  31.310  25.700  0.00  0.00           C  
 ATOM      3  CA  LYS A   4       8.134  32.482  18.715  0.00  0.00           C  
