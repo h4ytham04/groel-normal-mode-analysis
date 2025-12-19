@@ -61,7 +61,7 @@ for chain_id in chains_to_analyze:
     
     all_chain_overlaps.append(overlaps)
     
-    print(f'\n✓ Best mode: {best_mode} (overlap: {best_overlap:.4f})')
+    print(f'\n Best mode: {best_mode} (overlap: {best_overlap:.4f})')
     
     best_mode_index = best_mode + 5
     optimal_chains.append({
