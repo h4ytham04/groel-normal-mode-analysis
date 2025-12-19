@@ -20,7 +20,7 @@ all_chain_overlaps = []
 
 for chain_id in chains_to_analyze:
     
-    print(f'\n=== CHAIN {chain_id} ===')
+    print(f'chain {chain_id}')
     
     r_chain = r_state.select(f'calpha and chain {chain_id}')
     t_chain = t_state.select(f'calpha and chain {chain_id}')
@@ -29,9 +29,9 @@ for chain_id in chains_to_analyze:
     r_matched = matches[0][0]
     t_matched = matches[0][1]
     
-    print(f'Matched atoms: {r_matched.numAtoms()}')
+    print(f'matched atoms: {r_matched.numAtoms()}')
     
-    anm_r = ANM(f'R State Chain {chain_id}')
+    anm_r = ANM(f'R state chain {chain_id}')
     anm_r.buildHessian(r_matched, cutoff=7, gamma=1)
     anm_r.calcModes()
     
@@ -46,7 +46,7 @@ for chain_id in chains_to_analyze:
     prodyrmsd = calcRMSD(r_matched, t_aligned)
     print(f'RMSD: {prodyrmsd:.3f} Angstroms')
     
-    print('\nMode overlaps:')
+    print('mode overlaps:')
     overlaps = []
     for i in range(6, 16):
         mode = anm_r_eigvecs[:, i]
@@ -61,7 +61,7 @@ for chain_id in chains_to_analyze:
     
     all_chain_overlaps.append(overlaps)
     
-    print(f'\n Best mode: {best_mode} (overlap: {best_overlap:.4f})')
+    print(f'best mode: {best_mode} (overlap: {best_overlap:.4f})')
     
     best_mode_index = best_mode + 5
     optimal_chains.append({
@@ -80,29 +80,27 @@ for chain_id in chains_to_analyze:
         'best_overlap': best_overlap
     })
 
-# Save results to CSV
+#save results to CSV
 with open('r_to_t_results.csv', 'w', newline='') as f:
     writer = csv.DictWriter(f, fieldnames=['chain', 'atoms', 'rmsd', 'best_mode', 'best_overlap'])
     writer.writeheader()
     writer.writerows(results)
 
-# Summary statistics
+#summary statistics
 ring1_rmsds = [r['rmsd'] for r in results[:7]]
 ring2_rmsds = [r['rmsd'] for r in results[7:]]
 ring1_overlaps = [r['best_overlap'] for r in results[:7]]
 ring2_overlaps = [r['best_overlap'] for r in results[7:]]
 
-print('\n' + '='*60)
-print('SUMMARY STATISTICS')
-print('='*60)
+
+print('stats')
+
 print(f'Ring 1 (A-G): RMSD = {np.mean(ring1_rmsds):.3f} ± {np.std(ring1_rmsds):.3f} Angstroms')
 print(f'Ring 2 (H-N): RMSD = {np.mean(ring2_rmsds):.3f} ± {np.std(ring2_rmsds):.3f} Angstroms')
 print(f'Ring 1 overlap = {np.mean(ring1_overlaps):.4f} ± {np.std(ring1_overlaps):.4f}')
 print(f'Ring 2 overlap = {np.mean(ring2_overlaps):.4f} ± {np.std(ring2_overlaps):.4f}')
 
-print('\n' + '='*60)
-print('CREATING PSEUDO-PROTEIN')
-print('='*60)
+
 
 all_pseudo_coords = []
 all_chain_data = []
@@ -154,15 +152,10 @@ pseudo_protein.setChids(all_chains)
 pseudo_protein.setElements(all_elements)
 
 prody.writePDB('pseudo_protein_best_modes.pdb', pseudo_protein)
-print(f'\n✓ Saved: pseudo_protein_best_modes.pdb ({pseudo_protein.numAtoms()} atoms)')
-
-print('\n' + '='*60)
-print('VALIDATION: PSEUDO-PROTEIN vs ACTUAL T STATE')
-print('='*60)
 
 t_state_full = prody.parsePDB('1gr5').select('calpha')
 
-# Match chains by ID for global alignment
+#match chains by ID for global alignment
 pseudo_coords_by_chain = {}
 t_coords_by_chain = {}
 
@@ -180,18 +173,15 @@ all_t = np.vstack(list(t_coords_by_chain.values()))
 
 print(f'Matched {len(all_pseudo)} atoms across all chains')
 
-# Single global alignment
+#single global alignment
 transformation = calcTransformation(all_t, all_pseudo)
 all_t_aligned = transformation.apply(all_t)
 
-# Final RMSD
+#final RMSD
 final_rmsd = np.sqrt(np.mean(np.sum((all_pseudo - all_t_aligned)**2, axis=1)))
-print(f'\n✓ Global RMSD: {final_rmsd:.3f} Angstroms ({len(all_pseudo)} atoms)')
+print(f'Global RMSD: {final_rmsd:.3f} Angstroms ({len(all_pseudo)} atoms)')
 
-# Generate heatmap
-print('\n' + '='*60)
-print('GENERATING HEATMAP')
-print('='*60)
+#generate heatmap
 
 overlap_matrix = np.array(all_chain_overlaps)
 
@@ -222,8 +212,3 @@ for i in range(14):
 
 plt.tight_layout()
 plt.savefig('mode_overlap_heatmap.png', dpi=300, bbox_inches='tight')
-print('✓ Heatmap saved: mode_overlap_heatmap.png')
-
-print('\n' + '='*60)
-print('ANALYSIS COMPLETE')
-print('='*60)
